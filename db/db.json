@@ -3,93 +3,379 @@
 		{
 			"id": 1,
 			"name": "Berenica",
-			"img": "/img/char/Berenica.webp",
-			"bg": "/img/Character/Berenica.webp",
-			"themeChar":"/img/themeChar/bg-Berenica.png"
+			"description": "Wishes? I... can't think of any. Your smile in the morning is already the greatest pick-me-up of all.",
+			"character": "/img/character/Berenica.png",
+			"bg":{
+				"banner": "/img/banner/bg-Berenica.png"
+			},
+			"img": {
+				"imgArtWords": "",
+				"chibi": ""
+			},
+			"color":{
+				"color1": "",
+				"color2": "",
+				"color3": "",
+				"color4": "",
+				"color5": "",
+				"textColor": ""
+			},
+			"ComboSkill":{
+				"skill1":{
+					"color": "",
+					"icon": "",
+					"title": "",
+					"desc": ""
+				}
+			}
 		},
 		{
 			"id": 2,
 			"name": "Daphne",
-			"img": "/img/char/Daphne.webp",
-			"bg": "/img/Character/Daphne.webp",
-			"themeChar": "/img/themeChar/bg-Daphne.png"
+			"description": "It's delightful to see you safe and well today. Take care... The peace we all long for will surely arrive someday.",
+			"character": "/img/character/Daphne.png",
+			"bg": {
+				"banner": "/img/banner/bg-Daphne.png"
+			},
+			"img": {
+				"imgArtWords": "",
+				"chibi": ""
+			},
+			"color": {
+				"color1": "",
+				"color2": "",
+				"color3": "",
+				"color4": "",
+				"color5": "",
+				"textColor": ""
+			},
+			"ComboSkill": {
+				"skill1": {
+					"color": "",
+					"icon": "",
+					"title": "",
+					"desc": ""
+				}
+			}
 		},
 		{
 			"id": 3,
 			"name": "Fina",
-			"img": "/img/char/Fina.webp",
-			"bg": "/img/Character/Fina.webp",
-			"themeChar": "/img/themeChar/bg-Fina.png"
+			"description": "What a tiny, tiny, little home... It rests in and hides in the treetops; and the magical golden river flow... Do you see that stove? The embers crackle, crackle...",
+			"character": "/img/character/Fina.png",
+			"bg": {
+				"banner": "/img/banner/bg-Fina.png"
+			},
+			"img": {
+				"imgArtWords": "",
+				"chibi": ""
+			},
+			"color": {
+				"color1": "",
+				"color2": "",
+				"color3": "",
+				"color4": "",
+				"color5": "",
+				"textColor": ""
+			},
+			"ComboSkill": {
+				"skill1": {
+					"color": "",
+					"icon": "",
+					"title": "",
+					"desc": ""
+				}
+			}
 		},
 		{
 			"id": 4,
 			"name": "Fushu",
-			"img": "/img/char/Fushu.webp",
-			"bg": "/img/Character/Fushu.webp",
-			"themeChar": "/img/themeChar/bg-Fushu.png"
+			"description": "I am Fushu, a healer from Huaxu. If you are injured or unwell, please, do not conceal it from me. Though my skills may have their limits, I will do everything in my power to safeguard your well-being.",
+			"character": "/img/character/Fushu.png",
+			"bg": {
+				"banner": "/img/banner/bg-Fushu.png"
+			},
+			"img": {
+				"imgArtWords": "",
+				"chibi": ""
+			},
+			"color": {
+				"color1": "",
+				"color2": "",
+				"color3": "",
+				"color4": "",
+				"color5": "",
+				"textColor": ""
+			},
+			"ComboSkill": {
+				"skill1": {
+					"color": "",
+					"icon": "",
+					"title": "",
+					"desc": ""
+				}
+			}
 		},
 		{
 			"id": 5,
 			"name": "Hellfire",
-			"img": "/img/char/Hellfire.webp",
-			"bg": "/img/Character/Hellfire.webp",
-			"themeChar": "/img/themeChar/bg-Hellfire.png"
+			"description": "Every minute of rest delays justice a bit, and when justice is delayed, chaos and the law of the jungle take over.",
+			"character": "/img/character/Hellfire.png",
+			"bg": {
+				"banner": "/img/banner/bg-Hellfire.png"
+			},
+			"img": {
+				"imgArtWords": "",
+				"chibi": ""
+			},
+			"color": {
+				"color1": "",
+				"color2": "",
+				"color3": "",
+				"color4": "",
+				"color5": "",
+				"textColor": ""
+			},
+			"ComboSkill": {
+				"skill1": {
+					"color": "",
+					"icon": "",
+					"title": "",
+					"desc": ""
+				}
+			}
 		},
 		{
 			"id": 6,
 			"name": "Hilda",
-			"img": "/img/char/Hilda.webp",
-			"bg": "/img/Character/Hilda.webp",
-			"themeChar": "/img/themeChar/bg-Hilda.png"
+			"description": "",
+			"character": "/img/character/Hilda.png",
+			"bg": {
+				"banner": "/img/banner/bg-Hilda.png"
+			},
+			"img": {
+				"imgArtWords": "",
+				"chibi": ""
+			},
+			"color": {
+				"color1": "",
+				"color2": "",
+				"color3": "",
+				"color4": "",
+				"color5": "",
+				"textColor": ""
+			},
+			"ComboSkill": {
+				"skill1": {
+					"color": "",
+					"icon": "",
+					"title": "",
+					"desc": ""
+				}
+			}
 		},
 		{
 			"id": 7,
 			"name": "Lady Nifle",
-			"img": "/img/char/LadyNifle.webp",
-			"bg": "/img/Character/LadyNifle.webp",
-			"themeChar": "/img/themeChar/bg-LadyNifle.png"
+			"description": "Should you wander into the Emerald Forest, would you mind bringing a bouquet of white asters for me? Beneath its earth rest my friends, my child, and a version of myself fromlong ago...",
+			"character": "/img/character/LadyNifle.png",
+			"bg": {
+				"banner": "/img/banner/bg-LadyNifle.png"
+			},
+			"img": {
+				"imgArtWords": "",
+				"chibi": ""
+			},
+			"color": {
+				"color1": "",
+				"color2": "",
+				"color3": "",
+				"color4": "",
+				"color5": "",
+				"textColor": ""
+			},
+			"ComboSkill": {
+				"skill1": {
+					"color": "",
+					"icon": "",
+					"title": "",
+					"desc": ""
+				}
+			}
 		},
 		{
 			"id": 8,
 			"name": "Lynn",
-			"img": "/img/char/Lynn.webp",
-			"bg": "/img/Character/Lynn.webp",
-			"themeChar": "/img/themeChar/bg-Lynn.png"
+			"description": "Tips? The only tip I have is there's no problem a good punch can't fix. If that doesn't work, throw another.",
+			"character": "/img/character/Lynn.png",
+			"bg": {
+				"banner": "/img/banner/bg-Lynn.png"
+			},
+			"img": {
+				"imgArtWords": "",
+				"chibi": ""
+			},
+			"color": {
+				"color1": "",
+				"color2": "",
+				"color3": "",
+				"color4": "",
+				"color5": "",
+				"textColor": ""
+			},
+			"ComboSkill": {
+				"skill1": {
+					"color": "",
+					"icon": "",
+					"title": "",
+					"desc": ""
+				}
+			}
 		},
 		{
 			"id": 9,
 			"name": "Psyche",
-			"img": "/img/char/Psyche.webp",
-			"bg": "/img/Character/Psyche.webp",
-			"themeChar": "/img/themeChar/bg-Psyche.png"
+			"description": "The courtyard at the Hypnos' House looked a bit barren with just a few trees, so I planted some white flowers there.",
+			"character": "/img/character/Psyche.png",
+			"bg": {
+				"banner": "/img/banner/bg-Psyche.png"
+			},
+			"img": {
+				"imgArtWords": "",
+				"chibi": ""
+			},
+			"color": {
+				"color1": "",
+				"color2": "",
+				"color3": "",
+				"color4": "",
+				"color5": "",
+				"textColor": ""
+			},
+			"ComboSkill": {
+				"skill1": {
+					"color": "",
+					"icon": "",
+					"title": "",
+					"desc": ""
+				}
+			}
 		},
 		{
 			"id": 10,
 			"name": "Rebecca",
-			"img": "/img/char/Rebecca.webp",
-			"bg": "/img/Character/Rebecca.webp",
-			"themeChar": "/img/themeChar/bg-Rebecca.png"
+			"description": "Love is like water in perfume, which kisses and embraces each ingredient, devours and absorbs their fragrance, and eventually blends with them to create a long-lasting aroma...",
+			"character": "/img/character/Rebecca.png",
+			"bg": {
+				"banner": "/img/banner/bg-Rebecca.png"
+			},
+			"img": {
+				"imgArtWords": "",
+				"chibi": ""
+			},
+			"color": {
+				"color1": "",
+				"color2": "",
+				"color3": "",
+				"color4": "",
+				"color5": "",
+				"textColor": ""
+			},
+			"ComboSkill": {
+				"skill1": {
+					"color": "",
+					"icon": "",
+					"title": "",
+					"desc": ""
+				}
+			}
 		},
 		{
 			"id": 11,
 			"name": "Rhythm",
-			"img": "/img/char/Rhythm.webp",
-			"bg": "/img/Character/Rhythm.webp",
-			"themeChar": "/img/themeChar/bg-Rhythm.png"
+			"description": "Patrol complete. No signs of dangerous creatures, structural damage, or suspicious markings. Routine operations may proceed without interruption. Report concluded.",
+			"character": "/img/character/Rhythm.png",
+			"bg": {
+				"banner": "/img/banner/bg-Rhythm.png"
+			},
+			"img": {
+				"imgArtWords": "",
+				"chibi": ""
+			},
+			"color": {
+				"color1": "",
+				"color2": "",
+				"color3": "",
+				"color4": "",
+				"color5": "",
+				"textColor": ""
+			},
+			"ComboSkill": {
+				"skill1": {
+					"color": "",
+					"icon": "",
+					"title": "",
+					"desc": ""
+				}
+			}
 		},
 		{
 			"id": 12,
 			"name": "Sibyll",
-			"img": "/img/char/Sibyll.webp",
-			"bg": "/img/Character/Sibyll.webp",
-			"themeChar": "/img/themeChar/bg-Sibyll.png"
+			"description": "I know what you wish to ask, but you're not yet strong enough to warrant my response. So, lay down your weapon; that's the kindest advice I can offer.",
+			"character": "/img/character/Sibyll.png",
+			"bg": {
+				"banner": "/img/banner/bg-Sibyll.png"
+			},
+			"img": {
+				"imgArtWords": "",
+				"chibi": ""
+			},
+			"color": {
+				"color1": "",
+				"color2": "",
+				"color3": "",
+				"color4": "",
+				"color5": "",
+				"textColor": ""
+			},
+			"ComboSkill": {
+				"skill1": {
+					"color": "",
+					"icon": "",
+					"title": "",
+					"desc": ""
+				}
+			}
 		},
 		{
 			"id": 13,
 			"name": "Zhiliu",
-			"img": "/img/char/Zhiliu.webp",
-			"bg": "/img/Character/Zhiliu.webp",
-			"themeChar": "/img/themeChar/bg-Zhiliu.png"
+			"description": "",
+			"character": "/img/character/Zhiliu.png",
+			"bg": {
+				"banner": "/img/banner/bg-Zhiliu.png"
+			},
+			"img": {
+				"imgArtWords": "",
+				"chibi": ""
+			},
+			"color": {
+				"color1": "",
+				"color2": "",
+				"color3": "",
+				"color4": "",
+				"color5": "",
+				"textColor": ""
+			},
+			"ComboSkill": {
+				"skill1": {
+					"color": "",
+					"icon": "",
+					"title": "",
+					"desc": ""
+				}
+			}
 		}
 	]
 }
