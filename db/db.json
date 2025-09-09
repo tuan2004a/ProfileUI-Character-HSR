@@ -1,0 +1,95 @@
+{
+    "characters":[
+		{
+			"id": 1,
+			"name": "Berenica",
+			"img": "/img/char/Berenica.webp",
+			"bg": "/img/Character/Berenica.webp",
+			"themeChar":"/img/themeChar/bg-Berenica.png"
+		},
+		{
+			"id": 2,
+			"name": "Daphne",
+			"img": "/img/char/Daphne.webp",
+			"bg": "/img/Character/Daphne.webp",
+			"themeChar": "/img/themeChar/bg-Daphne.png"
+		},
+		{
+			"id": 3,
+			"name": "Fina",
+			"img": "/img/char/Fina.webp",
+			"bg": "/img/Character/Fina.webp",
+			"themeChar": "/img/themeChar/bg-Fina.png"
+		},
+		{
+			"id": 4,
+			"name": "Fushu",
+			"img": "/img/char/Fushu.webp",
+			"bg": "/img/Character/Fushu.webp",
+			"themeChar": "/img/themeChar/bg-Fushu.png"
+		},
+		{
+			"id": 5,
+			"name": "Hellfire",
+			"img": "/img/char/Hellfire.webp",
+			"bg": "/img/Character/Hellfire.webp",
+			"themeChar": "/img/themeChar/bg-Hellfire.png"
+		},
+		{
+			"id": 6,
+			"name": "Hilda",
+			"img": "/img/char/Hilda.webp",
+			"bg": "/img/Character/Hilda.webp",
+			"themeChar": "/img/themeChar/bg-Hilda.png"
+		},
+		{
+			"id": 7,
+			"name": "Lady Nifle",
+			"img": "/img/char/LadyNifle.webp",
+			"bg": "/img/Character/LadyNifle.webp",
+			"themeChar": "/img/themeChar/bg-LadyNifle.png"
+		},
+		{
+			"id": 8,
+			"name": "Lynn",
+			"img": "/img/char/Lynn.webp",
+			"bg": "/img/Character/Lynn.webp",
+			"themeChar": "/img/themeChar/bg-Lynn.png"
+		},
+		{
+			"id": 9,
+			"name": "Psyche",
+			"img": "/img/char/Psyche.webp",
+			"bg": "/img/Character/Psyche.webp",
+			"themeChar": "/img/themeChar/bg-Psyche.png"
+		},
+		{
+			"id": 10,
+			"name": "Rebecca",
+			"img": "/img/char/Rebecca.webp",
+			"bg": "/img/Character/Rebecca.webp",
+			"themeChar": "/img/themeChar/bg-Rebecca.png"
+		},
+		{
+			"id": 11,
+			"name": "Rhythm",
+			"img": "/img/char/Rhythm.webp",
+			"bg": "/img/Character/Rhythm.webp",
+			"themeChar": "/img/themeChar/bg-Rhythm.png"
+		},
+		{
+			"id": 12,
+			"name": "Sibyll",
+			"img": "/img/char/Sibyll.webp",
+			"bg": "/img/Character/Sibyll.webp",
+			"themeChar": "/img/themeChar/bg-Sibyll.png"
+		},
+		{
+			"id": 13,
+			"name": "Zhiliu",
+			"img": "/img/char/Zhiliu.webp",
+			"bg": "/img/Character/Zhiliu.webp",
+			"themeChar": "/img/themeChar/bg-Zhiliu.png"
+		}
+	]
+}
