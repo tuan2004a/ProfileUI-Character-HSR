@@ -9,8 +9,14 @@
 				"banner": "/img/banner/bg-Berenica.png"
 			},
 			"img": {
-				"imgArtWords": "",
-				"chibi": ""
+				"ArtWords": {
+					"art1": "/img/artWord/ArtBerenica1.jpg",
+					"art2": ""
+				},
+				"chibi": {
+					"chibi1": "",
+					"chibi2": ""
+				}
 			},
 			"color":{
 				"color1": "",
@@ -38,8 +44,14 @@
 				"banner": "/img/banner/bg-Daphne.png"
 			},
 			"img": {
-				"imgArtWords": "",
-				"chibi": ""
+				"ArtWords": {
+					"art1": "/img/artWord/Daphne1.jpg",
+					"art2": ""
+				},
+				"chibi": {
+					"chibi1": "/img/chibi/Daphne1.jpg",
+					"chibi2": "/img/chibi/Daphne2.jpg"
+				}
 			},
 			"color": {
 				"color1": "",
@@ -67,8 +79,14 @@
 				"banner": "/img/banner/bg-Fina.png"
 			},
 			"img": {
-				"imgArtWords": "",
-				"chibi": ""
+				"ArtWords": {
+					"art1": "",
+					"art2": ""
+				},
+				"chibi": {
+					"chibi1": "",
+					"chibi2": ""
+				}
 			},
 			"color": {
 				"color1": "",
@@ -96,8 +114,14 @@
 				"banner": "/img/banner/bg-Fushu.png"
 			},
 			"img": {
-				"imgArtWords": "",
-				"chibi": ""
+				"ArtWords": {
+					"art1": "/img/artWord/ArtBerenica1.jpg",
+					"art2": ""
+				},
+				"chibi": {
+					"chibi1": "/img/chibi/Fushu1.jpg",
+					"chibi2": ""
+				}
 			},
 			"color": {
 				"color1": "",
@@ -125,8 +149,14 @@
 				"banner": "/img/banner/bg-Hellfire.png"
 			},
 			"img": {
-				"imgArtWords": "",
-				"chibi": ""
+				"ArtWords": {
+					"art1": "/img/artWord/Hellfire1.jpg",
+					"art2": ""
+				},
+				"chibi": {
+					"chibi1": "/img/chibi/Hellfire1.jpg",
+					"chibi2": "/img/chibi/Hellfire2.jpg"
+				}
 			},
 			"color": {
 				"color1": "",
@@ -154,8 +184,14 @@
 				"banner": "/img/banner/bg-Hilda.png"
 			},
 			"img": {
-				"imgArtWords": "",
-				"chibi": ""
+				"ArtWords": {
+					"art1": "/img/artWord/ArtBerenica1.jpg",
+					"art2": ""
+				},
+				"chibi": {
+					"chibi1": "/img/chibi/Hilda1.jpg",
+					"chibi2": ""
+				}
 			},
 			"color": {
 				"color1": "",
@@ -176,15 +212,21 @@
 		},
 		{
 			"id": 7,
-			"name": "Lady Nifle",
+			"name": "  Nifle",
 			"description": "Should you wander into the Emerald Forest, would you mind bringing a bouquet of white asters for me? Beneath its earth rest my friends, my child, and a version of myself fromlong ago...",
 			"character": "/img/character/LadyNifle.png",
 			"bg": {
 				"banner": "/img/banner/bg-LadyNifle.png"
 			},
 			"img": {
-				"imgArtWords": "",
-				"chibi": ""
+				"ArtWords": {
+					"art1": "/img/artWord/LadyNifle1.jpg",
+					"art2": ""
+				},
+				"chibi": {
+					"chibi1": "",
+					"chibi2": ""
+				}
 			},
 			"color": {
 				"color1": "",
@@ -212,8 +254,14 @@
 				"banner": "/img/banner/bg-Lynn.png"
 			},
 			"img": {
-				"imgArtWords": "",
-				"chibi": ""
+				"ArtWords": {
+					"art1": "",
+					"art2": ""
+				},
+				"chibi": {
+					"chibi1": "",
+					"chibi2": ""
+				}
 			},
 			"color": {
 				"color1": "",
@@ -241,8 +289,14 @@
 				"banner": "/img/banner/bg-Psyche.png"
 			},
 			"img": {
-				"imgArtWords": "",
-				"chibi": ""
+				"ArtWords": {
+					"art1": "/img/artWord/ArtPsyche1.jpg",
+					"art2": "/img/artWord/ArtPsyche2.jpg"
+				},
+				"chibi": {
+					"chibi1": "/img/chibi/Psyche1.jpg",
+					"chibi2": "/img/chibi/Psyche1.jpg"
+				}
 			},
 			"color": {
 				"color1": "",
@@ -270,8 +324,14 @@
 				"banner": "/img/banner/bg-Rebecca.png"
 			},
 			"img": {
-				"imgArtWords": "",
-				"chibi": ""
+				"ArtWords": {
+					"art1": "",
+					"art2": ""
+				},
+				"chibi": {
+					"chibi1": "",
+					"chibi2": ""
+				}
 			},
 			"color": {
 				"color1": "",
@@ -299,8 +359,14 @@
 				"banner": "/img/banner/bg-Rhythm.png"
 			},
 			"img": {
-				"imgArtWords": "",
-				"chibi": ""
+				"ArtWords": {
+					"art1": "/img/artWord/ArtRhythm1.jpg",
+					"art2": "/img/artWord/ArtRhythm3.jpg"
+				},
+				"chibi": {
+					"chibi1": "/img/chibi/Rhythm1.jpg",
+					"chibi2": "/img/chibi/Rhythm2.jpg"
+				}
 			},
 			"color": {
 				"color1": "",
@@ -328,8 +394,14 @@
 				"banner": "/img/banner/bg-Sibyll.png"
 			},
 			"img": {
-				"imgArtWords": "",
-				"chibi": ""
+				"ArtWords": {
+					"art1": "/img/artWord/ArtSibylle1.jpg",
+					"art2": "/img/artWord/ArtSibylle2.jpg"
+				},
+				"chibi": {
+					"chibi1": "/img/chibi/Sibylle1.jpg",
+					"chibi2": ""
+				}
 			},
 			"color": {
 				"color1": "",
@@ -357,8 +429,14 @@
 				"banner": "/img/banner/bg-Zhiliu.png"
 			},
 			"img": {
-				"imgArtWords": "",
-				"chibi": ""
+				"ArtWords": {
+					"art1": "",
+					"art2": ""
+				},
+				"chibi": {
+					"chibi1": "",
+					"chibi2": ""
+				}
 			},
 			"color": {
 				"color1": "",
