@@ -1,19 +1,5 @@
 import type { Metadata } from "next";
-import { Gloock, Be_Vietnam_Pro } from "next/font/google";
 import "./globals.css";
-
-const gloock = Gloock({
-	subsets: ["latin"],
-	weight: "400",
-	variable: "--font-gloock",
-});
-
-const beVietnamPro = Be_Vietnam_Pro({
-	subsets: ["latin"],
-	weight: ["400", "500","600", "700"],
-	variable: "--font-be-vietnam-pro",
-});
-
 
 export const metadata: Metadata = {
 	title: "Create Next App",
@@ -27,7 +13,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className={`${gloock.variable} ${beVietnamPro.variable} antialiased`}>{children}</body>
+			<body className={`antialiased`}>{children}</body>
 		</html>
 	);
 }

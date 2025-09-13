@@ -1,29 +1,37 @@
 @import "tailwindcss";
 
 body {
-	font-family: var(--font-gloock), Arial, serif, sans-serif;
+	/* font-family: "Tahoma", Arial, sans-serif ;	 */
+	font-weight: normal;
 	font-style: normal;
 }
 
-p,h1,span,
-button,li {
-	font-family: var(--font-be-vietnam-pro), Arial, serif, sans-serif;
-	font-weight: 400;
-	font-style: normal;
+@layer base{
+	@font-face {
+		font-family: "HYWenHei";
+		src: url("/fonts/HYWenHei.ttf") format("truetype");
+	}
+
+	@font-face {
+		font-family: "Tahoma";
+		src: url("/fonts/tahoma.ttf") format("truetype");
+	}
+
+	@font-face {
+		font-family: "zh-cn";
+		src: url("/fonts/zh-cn-webfont.woff2") format("woff2");
+	}
+}
+
+.font-HYWenHei{
+	font-family: "HYWenHei", Arial, sans-serif;
+}
+.font-Tahoma{
+	font-family: "Tahoma", Arial, sans-serif;
 }
 
 .flex-center {
 	@apply flex justify-center items-center;
-}
-.clipPathParallelogram {
-	clip-path: polygon(54% 0, 100% 0%, 46% 100%, 0% 100%);
-}
-.clipPath {
-	clip-path: polygon(0 0, 100% 0, 46.5% 100%, 0 100%);
-}
-
-.clipPathCard3D {
-	clip-path: polygon(20% 0, 100% 0, 100% 90%, 86% 100%, 10% 100%, 10% 8%);
 }
 
 .wordSpacing{
