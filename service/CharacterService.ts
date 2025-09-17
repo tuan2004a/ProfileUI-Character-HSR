@@ -20,7 +20,6 @@ class CharacterService {
 			if (!id?.trim()) {
 				throw new Error("Background tag ID is required");
 			}
-
 			const response = await axios.get<Character[]>(`${JSON_URL}/characters/${id}`);
             return response.data;
 		} catch (error) {

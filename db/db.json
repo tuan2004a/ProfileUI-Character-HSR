@@ -2,23 +2,21 @@
     "characters":[
 		{
 			"id": 1,
-			"name": "Berenica",
-			"description": "Wishes? I... can't think of any. Your smile in the morning is already the greatest pick-me-up of all.",
-			"character": "/img/character/Berenica.png",
-			"bg":{
-				"banner": "/img/banner/bg-Berenica.png"
-			},
+			"name": "Lisa",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"character": "/img/character/bgLisa.png",
+			"banner": "/img/banner/SliceLisa.png",
 			"img": {
 				"ArtWords": {
-					"art1": "/img/artWord/ArtBerenica1.jpg",
-					"art2": ""
+					"art1": "/img/ArtWords/ArtLisa1.jpg",
+					"art2": "/img/ArtWords/ArtLisa2.jpg"
 				},
 				"chibi": {
-					"chibi1": "",
-					"chibi2": ""
+					"chibi1": "/img/chibi/chibiLisa1.jpg",
+					"chibi2": "/img/chibi/chibiLisa2.jpg"
 				}
 			},
-			"color":{
+			"color": {
 				"color1": "",
 				"color2": "",
 				"color3": "",
@@ -26,8 +24,8 @@
 				"color5": "",
 				"textColor": ""
 			},
-			"ComboSkill":{
-				"skill1":{
+			"ComboSkill": {
+				"skill1": {
 					"color": "",
 					"icon": "",
 					"title": "",
@@ -37,20 +35,18 @@
 		},
 		{
 			"id": 2,
-			"name": "Daphne",
-			"description": "It's delightful to see you safe and well today. Take care... The peace we all long for will surely arrive someday.",
-			"character": "/img/character/Daphne.png",
-			"bg": {
-				"banner": "/img/banner/bg-Daphne.png"
-			},
+			"name": "Eula",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"character": "/img/character/bgEula.png",
+			"banner": "/img/banner/SliceEula.png",
 			"img": {
 				"ArtWords": {
-					"art1": "/img/artWord/Daphne1.jpg",
-					"art2": ""
+					"art1": "/img/ArtWords/ArtEula1.jpg",
+					"art2": "/img/ArtWords/ArtEula2.jpg"
 				},
 				"chibi": {
-					"chibi1": "/img/chibi/Daphne1.jpg",
-					"chibi2": "/img/chibi/Daphne2.jpg"
+					"chibi1": "/img/chibi/chibiEula1.jpg",
+					"chibi2": "/img/chibi/chibiEula2.jpg"
 				}
 			},
 			"color": {
@@ -72,370 +68,18 @@
 		},
 		{
 			"id": 3,
-			"name": "Fina",
-			"description": "What a tiny, tiny, little home... It rests in and hides in the treetops; and the magical golden river flow... Do you see that stove? The embers crackle, crackle...",
-			"character": "/img/character/Fina.png",
-			"bg": {
-				"banner": "/img/banner/bg-Fina.png"
-			},
+			"name": "Rosaria",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"character": "/img/character/bgRosaria.png",
+			"banner": "/img/banner/SliceRosaria.png",
 			"img": {
 				"ArtWords": {
-					"art1": "",
-					"art2": ""
+					"art1": "/img/ArtWords/ArtRosaria1.jpg",
+					"art2": "/img/ArtWords/ArtRosaria2.jpg"
 				},
 				"chibi": {
-					"chibi1": "",
-					"chibi2": ""
-				}
-			},
-			"color": {
-				"color1": "",
-				"color2": "",
-				"color3": "",
-				"color4": "",
-				"color5": "",
-				"textColor": ""
-			},
-			"ComboSkill": {
-				"skill1": {
-					"color": "",
-					"icon": "",
-					"title": "",
-					"desc": ""
-				}
-			}
-		},
-		{
-			"id": 4,
-			"name": "Fushu",
-			"description": "I am Fushu, a healer from Huaxu. If you are injured or unwell, please, do not conceal it from me. Though my skills may have their limits, I will do everything in my power to safeguard your well-being.",
-			"character": "/img/character/Fushu.png",
-			"bg": {
-				"banner": "/img/banner/bg-Fushu.png"
-			},
-			"img": {
-				"ArtWords": {
-					"art1": "/img/artWord/ArtBerenica1.jpg",
-					"art2": ""
-				},
-				"chibi": {
-					"chibi1": "/img/chibi/Fushu1.jpg",
-					"chibi2": ""
-				}
-			},
-			"color": {
-				"color1": "",
-				"color2": "",
-				"color3": "",
-				"color4": "",
-				"color5": "",
-				"textColor": ""
-			},
-			"ComboSkill": {
-				"skill1": {
-					"color": "",
-					"icon": "",
-					"title": "",
-					"desc": ""
-				}
-			}
-		},
-		{
-			"id": 5,
-			"name": "Hellfire",
-			"description": "Every minute of rest delays justice a bit, and when justice is delayed, chaos and the law of the jungle take over.",
-			"character": "/img/character/Hellfire.png",
-			"bg": {
-				"banner": "/img/banner/bg-Hellfire.png"
-			},
-			"img": {
-				"ArtWords": {
-					"art1": "/img/artWord/Hellfire1.jpg",
-					"art2": ""
-				},
-				"chibi": {
-					"chibi1": "/img/chibi/Hellfire1.jpg",
-					"chibi2": "/img/chibi/Hellfire2.jpg"
-				}
-			},
-			"color": {
-				"color1": "",
-				"color2": "",
-				"color3": "",
-				"color4": "",
-				"color5": "",
-				"textColor": ""
-			},
-			"ComboSkill": {
-				"skill1": {
-					"color": "",
-					"icon": "",
-					"title": "",
-					"desc": ""
-				}
-			}
-		},
-		{
-			"id": 6,
-			"name": "Hilda",
-			"description": "",
-			"character": "/img/character/Hilda.png",
-			"bg": {
-				"banner": "/img/banner/bg-Hilda.png"
-			},
-			"img": {
-				"ArtWords": {
-					"art1": "/img/artWord/ArtBerenica1.jpg",
-					"art2": ""
-				},
-				"chibi": {
-					"chibi1": "/img/chibi/Hilda1.jpg",
-					"chibi2": ""
-				}
-			},
-			"color": {
-				"color1": "",
-				"color2": "",
-				"color3": "",
-				"color4": "",
-				"color5": "",
-				"textColor": ""
-			},
-			"ComboSkill": {
-				"skill1": {
-					"color": "",
-					"icon": "",
-					"title": "",
-					"desc": ""
-				}
-			}
-		},
-		{
-			"id": 7,
-			"name": "  Nifle",
-			"description": "Should you wander into the Emerald Forest, would you mind bringing a bouquet of white asters for me? Beneath its earth rest my friends, my child, and a version of myself fromlong ago...",
-			"character": "/img/character/LadyNifle.png",
-			"bg": {
-				"banner": "/img/banner/bg-LadyNifle.png"
-			},
-			"img": {
-				"ArtWords": {
-					"art1": "/img/artWord/LadyNifle1.jpg",
-					"art2": ""
-				},
-				"chibi": {
-					"chibi1": "",
-					"chibi2": ""
-				}
-			},
-			"color": {
-				"color1": "",
-				"color2": "",
-				"color3": "",
-				"color4": "",
-				"color5": "",
-				"textColor": ""
-			},
-			"ComboSkill": {
-				"skill1": {
-					"color": "",
-					"icon": "",
-					"title": "",
-					"desc": ""
-				}
-			}
-		},
-		{
-			"id": 8,
-			"name": "Lynn",
-			"description": "Tips? The only tip I have is there's no problem a good punch can't fix. If that doesn't work, throw another.",
-			"character": "/img/character/Lynn.png",
-			"bg": {
-				"banner": "/img/banner/bg-Lynn.png"
-			},
-			"img": {
-				"ArtWords": {
-					"art1": "",
-					"art2": ""
-				},
-				"chibi": {
-					"chibi1": "",
-					"chibi2": ""
-				}
-			},
-			"color": {
-				"color1": "",
-				"color2": "",
-				"color3": "",
-				"color4": "",
-				"color5": "",
-				"textColor": ""
-			},
-			"ComboSkill": {
-				"skill1": {
-					"color": "",
-					"icon": "",
-					"title": "",
-					"desc": ""
-				}
-			}
-		},
-		{
-			"id": 9,
-			"name": "Psyche",
-			"description": "The courtyard at the Hypnos' House looked a bit barren with just a few trees, so I planted some white flowers there.",
-			"character": "/img/character/Psyche.png",
-			"bg": {
-				"banner": "/img/banner/bg-Psyche.png"
-			},
-			"img": {
-				"ArtWords": {
-					"art1": "/img/artWord/ArtPsyche1.jpg",
-					"art2": "/img/artWord/ArtPsyche2.jpg"
-				},
-				"chibi": {
-					"chibi1": "/img/chibi/Psyche1.jpg",
-					"chibi2": "/img/chibi/Psyche1.jpg"
-				}
-			},
-			"color": {
-				"color1": "",
-				"color2": "",
-				"color3": "",
-				"color4": "",
-				"color5": "",
-				"textColor": ""
-			},
-			"ComboSkill": {
-				"skill1": {
-					"color": "",
-					"icon": "",
-					"title": "",
-					"desc": ""
-				}
-			}
-		},
-		{
-			"id": 10,
-			"name": "Rebecca",
-			"description": "Love is like water in perfume, which kisses and embraces each ingredient, devours and absorbs their fragrance, and eventually blends with them to create a long-lasting aroma...",
-			"character": "/img/character/Rebecca.png",
-			"bg": {
-				"banner": "/img/banner/bg-Rebecca.png"
-			},
-			"img": {
-				"ArtWords": {
-					"art1": "",
-					"art2": ""
-				},
-				"chibi": {
-					"chibi1": "",
-					"chibi2": ""
-				}
-			},
-			"color": {
-				"color1": "",
-				"color2": "",
-				"color3": "",
-				"color4": "",
-				"color5": "",
-				"textColor": ""
-			},
-			"ComboSkill": {
-				"skill1": {
-					"color": "",
-					"icon": "",
-					"title": "",
-					"desc": ""
-				}
-			}
-		},
-		{
-			"id": 11,
-			"name": "Rhythm",
-			"description": "Patrol complete. No signs of dangerous creatures, structural damage, or suspicious markings. Routine operations may proceed without interruption. Report concluded.",
-			"character": "/img/character/Rhythm.png",
-			"bg": {
-				"banner": "/img/banner/bg-Rhythm.png"
-			},
-			"img": {
-				"ArtWords": {
-					"art1": "/img/artWord/ArtRhythm1.jpg",
-					"art2": "/img/artWord/ArtRhythm3.jpg"
-				},
-				"chibi": {
-					"chibi1": "/img/chibi/Rhythm1.jpg",
-					"chibi2": "/img/chibi/Rhythm2.jpg"
-				}
-			},
-			"color": {
-				"color1": "",
-				"color2": "",
-				"color3": "",
-				"color4": "",
-				"color5": "",
-				"textColor": ""
-			},
-			"ComboSkill": {
-				"skill1": {
-					"color": "",
-					"icon": "",
-					"title": "",
-					"desc": ""
-				}
-			}
-		},
-		{
-			"id": 12,
-			"name": "Sibyll",
-			"description": "I know what you wish to ask, but you're not yet strong enough to warrant my response. So, lay down your weapon; that's the kindest advice I can offer.",
-			"character": "/img/character/Sibyll.png",
-			"bg": {
-				"banner": "/img/banner/bg-Sibyll.png"
-			},
-			"img": {
-				"ArtWords": {
-					"art1": "/img/artWord/ArtSibylle1.jpg",
-					"art2": "/img/artWord/ArtSibylle2.jpg"
-				},
-				"chibi": {
-					"chibi1": "/img/chibi/Sibylle1.jpg",
-					"chibi2": ""
-				}
-			},
-			"color": {
-				"color1": "",
-				"color2": "",
-				"color3": "",
-				"color4": "",
-				"color5": "",
-				"textColor": ""
-			},
-			"ComboSkill": {
-				"skill1": {
-					"color": "",
-					"icon": "",
-					"title": "",
-					"desc": ""
-				}
-			}
-		},
-		{
-			"id": 13,
-			"name": "Zhiliu",
-			"description": "",
-			"character": "/img/character/Zhiliu.png",
-			"bg": {
-				"banner": "/img/banner/bg-Zhiliu.png"
-			},
-			"img": {
-				"ArtWords": {
-					"art1": "",
-					"art2": ""
-				},
-				"chibi": {
-					"chibi1": "",
-					"chibi2": ""
+					"chibi1": "/img/chibi/chibiRosaria1.jpg",
+					"chibi2": "/img/chibi/chibiRosaria2.jpg"
 				}
 			},
 			"color": {

@@ -22,6 +22,7 @@ const initialState: CharacterContextState = {
 
 export const CharacterProvider: React.FC<CharacterProviderProps> = ({ children }) => {
     const [state, setState] = useState<CharacterContextState>(initialState);
+    const [selectId, setSelectId] = useState(null);
     const fetchsCharacterRef = useRef<boolean | null>(null);
 
     const LoadCharacter = useCallback(async()=>{
