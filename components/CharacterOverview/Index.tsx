@@ -53,7 +53,7 @@ const Index = () => {
 	};
 
 	return (
-		<div className="h-full max-w-[1200px] mx-auto">
+		<div className="h-full max-w-[1200px] mx-auto relative">
 			<Swiper
 				onSwiper={(swiper) => {
 					swiperRef.current = swiper;
@@ -71,7 +71,6 @@ const Index = () => {
 							<SLice itemData={items} />
 						</SwiperSlide>
 					))}
-
 				<div>
 					<BtnArrowAlt
 						onClick={() => {
@@ -80,7 +79,7 @@ const Index = () => {
 						}}
 						className="left-0 z-50"
 					>
-						<FaLongArrowAltLeft />
+						<FaLongArrowAltLeft className="text-xl" />
 					</BtnArrowAlt>
 					<BtnArrowAlt
 						onClick={() => {
@@ -89,11 +88,11 @@ const Index = () => {
 						}}
 						className="right-0 z-50"
 					>
-						<FaLongArrowAltRight />
+						<FaLongArrowAltRight className="text-xl" />
 					</BtnArrowAlt>
 				</div>
 			</Swiper>
-			<div className="mt-12 flex gap-x-15">
+			<div className="mt-12 flex gap-x-15 z-50">
 				<ArtWorks currentItem={currentItem} />
 				<RecentSeachs currentItem={currentItem} />
 				<AvatarChibi currentItem={currentItem} />

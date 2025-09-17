@@ -7,7 +7,7 @@ import { useCharacterContext, CharacterProvider } from "@/context/CharactersCont
 
 const IndexContext = () => {
 	return (
-		<main className="h-screen max-w-full bg-[#e4dfe3] p-10">
+		<main className="h-screen max-w-full bg-[radial-gradient(125%_125%_at_50%_10%,_#fff_40%,_#7c3aed_100%)] p-10">
 			<CharacterOverview />
 		</main>
 	);

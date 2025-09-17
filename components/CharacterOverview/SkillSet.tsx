@@ -2,7 +2,7 @@ import React from 'react'
 
 const SkillSet = () => {
     return (
-		<div className="w-75 flex flex-col justify-between ">
+		<div className="w-75 flex flex-col justify-between z-10">
 			<div className="w-full h-23 bg-white rounded-2xl flex items-center space-x-3 pl-3">
 				<img loading="lazy" className="h-2/3 object-contain" src="#" alt="" />
 				<div>
