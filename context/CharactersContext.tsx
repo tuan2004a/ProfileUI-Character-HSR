@@ -6,64 +6,80 @@ interface CharacterProviderProps {
 	children: ReactNode;
 }
 interface CharacterContextActions {
-	LoadCharacter: () => Promise<void>;
+	LoadCharacter: () => Promise<void | Character[]>;
+	LoadCharacterById: (id: string) => Promise<void | Character>;
+	setSelectId: React.Dispatch<React.SetStateAction<string | null>>;
 }
 interface CharacterContextState {
-	character: Character[];
+	characterData: Character[] | null;
+	selectId: string | null;
+	charDetailById: Character | null;
 }
 
 type CharacterContextType = CharacterContextState & CharacterContextActions;
 
 const CharacterContext = createContext<CharacterContextType | undefined>(undefined);
 
-const initialState: CharacterContextState = {
-	character: [],
-};
+// const initialState: CharacterContextState = {
+// 	character: []
+// };
 
 export const CharacterProvider: React.FC<CharacterProviderProps> = ({ children }) => {
-    const [state, setState] = useState<CharacterContextState>(initialState);
-    const [selectId, setSelectId] = useState(null);
-    const fetchsCharacterRef = useRef<boolean | null>(null);
+	const [characterData, setCharacterData] = useState<Character[] | null>([]);
+	const [selectId, setSelectId] = useState<string | null>(null);
+	const [charDetailById, setCharDetailById] = useState<Character | null>(null);
+	const fetchsCharacterRef = useRef<boolean>(false);
 
-    const LoadCharacter = useCallback(async()=>{
-        try {
-            const result = await CharacterSlice.fetchAllCharacters();
-            setState({
-				character: result,
-			});
-        } catch (error) {
-            console.log(error);
+	const LoadCharacter = useCallback(async () => {
+		try {
+			const result: Character[] = await CharacterSlice.fetchAllCharacters();
+			setCharacterData(result);
+			return result;
+		} catch (error) {
+			console.log(error);
 			throw error;
-        }
-    },[])
+		}
+	}, []);
 
-    useEffect(() => {
+	// khi mount thì load danh sách
+	useEffect(() => {
 		if (!fetchsCharacterRef.current) {
 			fetchsCharacterRef.current = true;
 			LoadCharacter();
 		}
 	}, [LoadCharacter]);
 
-    const LoadCharacterById = useCallback(async(id: string)=>{
-        try {
-            const resultById = await CharacterSlice.fetchCharacterById(id);
-        } catch (error) {
-            console.log(error);
+	const LoadCharacterById = useCallback(async (id: string) => {
+		try {
+			const resultById: Character[] = await CharacterSlice.fetchCharacterById(id);
+			setCharDetailById(resultById[0] || []);
+			return resultById[0];
+		} catch (error) {
+			console.log(error);
 			throw error;
-        }
-    },[])
+		}
+	}, []);
 
-    const contextValue = useMemo<CharacterContextType>(() => ({
-        character: state.character,
-        LoadCharacter,
-        LoadCharacterById,
-    }),[state.character, LoadCharacter, LoadCharacterById]);
+	// khi selectId thay đổi thì fetch chi tiết
+	useEffect(() => {
+		if (selectId) {
+			LoadCharacterById(selectId);
+		}
+	}, [selectId]);
 
-    return (
-        <CharacterContext.Provider value={contextValue}>
-            {children}
-        </CharacterContext.Provider>
-    );
+	const contextValue = useMemo<CharacterContextType>(
+		() => ({
+			characterData,
+			selectId,
+			charDetailById,
+			LoadCharacter,
+			LoadCharacterById,
+			setSelectId,
+		}),
+		[characterData, setSelectId, selectId, charDetailById, LoadCharacter, LoadCharacterById]
+	);
+
+	return <CharacterContext.Provider value={contextValue}>{children}</CharacterContext.Provider>;
 }
 
 export const useCharacterContext = () => {

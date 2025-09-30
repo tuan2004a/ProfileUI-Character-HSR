@@ -20,8 +20,8 @@ import { FaLongArrowAltLeft, FaLongArrowAltRight } from 'react-icons/fa';
 
 const Index = () => {
 
-	const { character } = useCharacterContext();
-	const charData = character || [];
+	const { characterData } = useCharacterContext();
+	const charData = characterData || [];
 
 	const swiperRef = useRef<SwiperClass | null>(null);
 	const [currentItem, setCurrentItem] = useState<any>(null);
