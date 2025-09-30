@@ -53,7 +53,7 @@ const Index = () => {
 	};
 
 	return (
-		<div className="h-full max-w-[1200px] mx-auto relative">
+		<div className="h-full max-w-[1200px] mx-auto relative z-10">
 			<Swiper
 				onSwiper={(swiper) => {
 					swiperRef.current = swiper;

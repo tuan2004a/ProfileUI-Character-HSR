@@ -1,9 +1,10 @@
 //SLice.tsx
 
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { FaLocationArrow, FaLongArrowAltRight, FaLongArrowAltLeft } from "react-icons/fa";
 import { Character } from "@/types/CharacterTypes";
 import BtnArrowAlt from "@/components/common/BtnArrowAlt";
+import { gsap } from "gsap";
 
 interface SLiceData {
 	itemData: Character;
@@ -11,9 +12,8 @@ interface SLiceData {
 
 const SLice: React.FC<SLiceData> = ({ itemData }) => {
 
-
 	return (
-		<div className="max-w-full h-75 rounded-4xl shadow-xl/20 shadow-red-200 relative bg-cover bg-center overflow-hidden">
+		<div className="max-w-full h-75 rounded-4xl relative bg-cover bg-center overflow-hidden">
 			<div className="absolute -left-50 translate-y-5 size-full z-0 after:absolute after:bg-white after:size-[2000px] after:translate-x-50 after:-translate-y-10 after:opacity-90 after:inset-0 after:z-10">
 				<img className="scale-200 object-cover -translate-x-55" src={itemData?.character} alt="" />
 			</div>
