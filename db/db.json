@@ -17,11 +17,12 @@
 				}
 			},
 			"color": {
-				"color1": "!bg-[#382f78] text-white",
-				"color2": "!bg-[#9983b9] text-white",
+				"color1": "!bg-[#9983b9] text-white",
+				"color2": "!bg-[#382f78] text-white",
 				"color3": "!bg-[#504550] text-white",
 				"color4": "!bg-[#d8b492] text-white",
-				"color5": "!bg-[#cabaca]"
+				"color5": "!bg-[#cabaca]",
+				"bgColor": "[background:radial-gradient(125%_125%_at_50%_-20%,_#fff_40%,_#9983b9_100%)]"
 			},
 			"ComboSkill": {
 				"skill1": {
@@ -53,7 +54,8 @@
 				"color2": "!bg-[#EFF3F5]",
 				"color3": "!bg-[#353742] !text-white",
 				"color4": "!bg-[#536dba] !text-white",
-				"color5": "!bg-[#aea999] !text-white"
+				"color5": "!bg-[#aea999] !text-white",
+				"bgColor": "[background:radial-gradient(125%_125%_at_50%_-20%,_#fff_40%,_#afdae3_100%)]"
 			},
 			"ComboSkill": {
 				"skill1": {
@@ -85,7 +87,8 @@
 				"color2": "!bg-[#412a34] text-white",
 				"color3": "!bg-[#593d3a] text-white",
 				"color4": "!bg-[#d6cbcf]",
-				"color5": "!bg-[#fff2f3]"
+				"color5": "!bg-[#fff2f3]",
+				"bgColor": "[background:radial-gradient(125%_125%_at_50%_-20%,_#fff_40%,_#781f31_100%)]"
 			},
 			"ComboSkill": {
 				"skill1": {

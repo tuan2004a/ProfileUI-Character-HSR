@@ -6,13 +6,13 @@ import { useCharacterContext, CharacterProvider } from "@/context/CharactersCont
 
 
 const IndexContext = () => {
+
+	const { charDetailById } = useCharacterContext();
+	console.log(charDetailById);
+	const bgColor = charDetailById?.color?.bgColor;
+
 	return (
-		<main
-			className="h-screen max-w-full p-10"
-			style={{
-				background: "radial-gradient(125% 125% at 50% -20%, #fff 40%, #9983b9 100%)",
-			}}
-		>
+		<main className={`h-screen max-w-full p-10  ${bgColor}`}>
 			<CharacterOverview />
 		</main>
 	);
