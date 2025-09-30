@@ -1,3 +1,5 @@
+//CharactersContext.tsx
+
 import { createContext, ReactNode, useCallback, useContext, useEffect, useMemo, useRef, useState } from "react";
 import CharacterSlice from "@/store/slice/CharacterSlice";
 import { Character } from "@/types/CharacterTypes";
@@ -30,6 +32,8 @@ export const CharacterProvider: React.FC<CharacterProviderProps> = ({ children }
 	const [charDetailById, setCharDetailById] = useState<Character | null>(null);
 	const fetchsCharacterRef = useRef<boolean>(false);
 
+	// console.log(selectId, charDetailById);
+
 	const LoadCharacter = useCallback(async () => {
 		try {
 			const result: Character[] = await CharacterSlice.fetchAllCharacters();
@@ -51,9 +55,9 @@ export const CharacterProvider: React.FC<CharacterProviderProps> = ({ children }
 
 	const LoadCharacterById = useCallback(async (id: string) => {
 		try {
-			const resultById: Character[] = await CharacterSlice.fetchCharacterById(id);
-			setCharDetailById(resultById[0] || []);
-			return resultById[0];
+			const resultById: Character = await CharacterSlice.fetchCharacterById(id);
+			setCharDetailById(resultById || []);
+			return resultById;
 		} catch (error) {
 			console.log(error);
 			throw error;

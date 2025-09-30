@@ -7,7 +7,12 @@ import { useCharacterContext, CharacterProvider } from "@/context/CharactersCont
 
 const IndexContext = () => {
 	return (
-		<main className="h-screen max-w-full bg-[radial-gradient(125%_125%_at_50%_10%,_#fff_40%,_#7c3aed_100%)] p-10">
+		<main
+			className="h-screen max-w-full p-10"
+			style={{
+				background: "radial-gradient(125% 125% at 50% -20%, #fff 40%, #9983b9 100%)",
+			}}
+		>
 			<CharacterOverview />
 		</main>
 	);

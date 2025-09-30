@@ -20,17 +20,14 @@ import { FaLongArrowAltLeft, FaLongArrowAltRight } from 'react-icons/fa';
 
 const Index = () => {
 
-	const { characterData } = useCharacterContext();
+	const { characterData, setSelectId } = useCharacterContext();
 	const charData = characterData || [];
 
 	const swiperRef = useRef<SwiperClass | null>(null);
-	const [currentItem, setCurrentItem] = useState<any>(null);
-
-	console.log(currentItem);
 
 	useEffect(() => {
 		if (charData.length > 0) {
-			setCurrentItem(charData[0]);
+			setSelectId(charData[0].id.toString());
 		}
 	}, [charData]);
 
@@ -38,8 +35,8 @@ const Index = () => {
 		if (swiperRef.current) {
 			swiperRef.current.slidePrev();
 			const index = swiperRef.current.realIndex;
-			setCurrentItem(charData[index]);
-			// console.log("👉 Prev:", charData[index]);
+			const item = charData[index];
+			setSelectId(item.id.toString());
 		}
 	};
 
@@ -47,13 +44,13 @@ const Index = () => {
 		if (swiperRef.current) {
 			swiperRef.current.slideNext();
 			const index = swiperRef.current.realIndex;
-			setCurrentItem(charData[index]);
-			// console.log("👉 Next:", charData[index]);
+			const item = charData[index];
+			setSelectId(item.id.toString());
 		}
 	};
 
 	return (
-		<div className="h-full max-w-[1200px] mx-auto relative z-10">
+		<div className="h-full max-w-[1200px] mx-auto relative z-10 ">
 			<Swiper
 				onSwiper={(swiper) => {
 					swiperRef.current = swiper;
@@ -93,9 +90,9 @@ const Index = () => {
 				</div>
 			</Swiper>
 			<div className="mt-12 flex gap-x-15 z-50">
-				<ArtWorks currentItem={currentItem} />
-				<RecentSeachs currentItem={currentItem} />
-				<AvatarChibi currentItem={currentItem} />
+				<ArtWorks />
+				<RecentSeachs  />
+				<AvatarChibi />
 				<SkillSet />
 			</div>
 		</div>

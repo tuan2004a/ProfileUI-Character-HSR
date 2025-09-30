@@ -15,10 +15,10 @@ class CharacterSlice {
 		}
 	}
 
-	static async fetchCharacterById(id: string): Promise<Character[]>{
+	static async fetchCharacterById(id: string): Promise<Character>{
         try {
             const resById = await CharacterService.getCharacterById(id);
-            return resById
+            return resById;
         } catch (error) {
             console.log(error);
 			throw error;
