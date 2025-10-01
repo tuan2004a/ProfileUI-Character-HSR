@@ -1,8 +1,8 @@
-# ProfileUI-Character-HSR
+# 🎮 ProfileUI-Character-HSR
 
-A web application for viewing Genshin Impact character banners and detailed character information. This project provides an intuitive user interface to explore game characters, including banner images, skill statistics, and other information.
+A web application for viewing Genshin Impact character banners and detailed character information. This project provides an intuitive user interface to explore game characters, including banner images, keywords, skill statistics, and other information.
 
-## Main Features
+## ✨ Main Features
 
 - Display Genshin Impact character banners with beautiful interface
 - View detailed character information (skills, stats, biography)
@@ -10,7 +10,7 @@ A web application for viewing Genshin Impact character banners and detailed char
 - Display character artwork and chibi images
 - User-friendly and responsive interface
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 ### Front-end
 - **Next.js**: Modern React framework for web application development
@@ -23,14 +23,14 @@ A web application for viewing Genshin Impact character banners and detailed char
 ### Back-end
 - **JSON Server**: Simple mock API server for serving character data
 
-## System Requirements
+## 💻 System Requirements
 
 - **Node.js**: Version 18.0.0 or higher
 - **pnpm**: Package manager
 - **Modern web browser**: Chrome, Firefox, Safari, Edge (latest versions)
 - **Internet connection**: For downloading dependencies and resources
 
-## Installation Guide
+## 📥 Installation Guide
 
 1. **Clone the project**
    ```bash
@@ -43,7 +43,7 @@ A web application for viewing Genshin Impact character banners and detailed char
    pnpm install
    ```
 
-## Running the Project
+## 🚀 Running the Project
 
 1. **Start JSON Server (Back-end)**
    ```bash
@@ -61,14 +61,14 @@ A web application for viewing Genshin Impact character banners and detailed char
    
    Open your web browser and navigate to: http://localhost:3000
 
-## Building for Production
+## 🏗️ Building for Production
 
 ```bash
 pnpm build
 pnpm start
 ```
 
-## Project Structure
+## 📁 Project Structure
 
 - `/app`: Contains Next.js application pages and layouts
 - `/components`: React components used in the application
