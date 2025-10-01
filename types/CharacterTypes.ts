@@ -24,6 +24,11 @@ export type Character = {
 		color5: string;
 		bgColor: string;
 	};
+	borderColor: {
+		border1: string;
+		border2: string;
+		border3: string;
+	};
 	ComboSkill: {
 		skill1: {
 			color: string;

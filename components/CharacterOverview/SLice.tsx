@@ -3,7 +3,6 @@
 import React, { useEffect, useRef } from 'react';
 import { FaLocationArrow, FaLongArrowAltRight, FaLongArrowAltLeft } from "react-icons/fa";
 import { Character } from "@/types/CharacterTypes";
-import { useCharacterContext } from "@/context/CharactersContext";
 import { gsap } from "gsap";
 
 interface SLiceData {
@@ -11,8 +10,6 @@ interface SLiceData {
 }
 
 const SLice: React.FC<SLiceData> = ({ itemData }) => {
-
-	const { setSelectId } = useCharacterContext();
 
 	return (
 		<div className="max-w-full h-75 rounded-4xl relative bg-cover bg-center overflow-hidden">

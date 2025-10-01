@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ProfileUI-Character-HSR
 
-## Getting Started
+A web application for viewing Genshin Impact character banners and detailed character information. This project provides an intuitive user interface to explore game characters, including banner images, skill statistics, and other information.
 
-First, run the development server:
+## Main Features
+
+- Display Genshin Impact character banners with beautiful interface
+- View detailed character information (skills, stats, biography)
+- Search characters by keywords
+- Display character artwork and chibi images
+- User-friendly and responsive interface
+
+## Technologies Used
+
+### Front-end
+- **Next.js**: Modern React framework for web application development
+- **Axios**: HTTP client library for API calls
+- **GSAP**: Powerful animation library for motion effects
+- **Swiper**: Slider/carousel library for banner and image display
+- **TailwindCSS**: Utility-first CSS framework for interface design
+- **TypeScript**: Statically typed JavaScript programming language
+
+### Back-end
+- **JSON Server**: Simple mock API server for serving character data
+
+## System Requirements
+
+- **Node.js**: Version 18.0.0 or higher
+- **pnpm**: Package manager
+- **Modern web browser**: Chrome, Firefox, Safari, Edge (latest versions)
+- **Internet connection**: For downloading dependencies and resources
+
+## Installation Guide
+
+1. **Clone the project**
+   ```bash
+   git clone <repository-url>
+   cd ProfileUI-Character-HSR
+   ```
+
+2. **Install dependencies**
+   ```bash
+   pnpm install
+   ```
+
+## Running the Project
+
+1. **Start JSON Server (Back-end)**
+   ```bash
+   pnpm json
+   ```
+   JSON Server will run at: http://localhost:3001
+
+2. **Start Next.js application (Front-end)**
+   ```bash
+   pnpm dev
+   ```
+   Application will run at: http://localhost:3000
+
+3. **Open browser and access**
+   
+   Open your web browser and navigate to: http://localhost:3000
+
+## Building for Production
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm build
+pnpm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `/app`: Contains Next.js application pages and layouts
+- `/components`: React components used in the application
+- `/config`: Application configuration (like axios instance)
+- `/context`: React Context API for state management
+- `/db`: JSON data for JSON Server
+- `/public`: Static resources (images, fonts)
+- `/service`: Services for API calls
+- `/store`: State management (Redux)
+- `/types`: TypeScript type definitions

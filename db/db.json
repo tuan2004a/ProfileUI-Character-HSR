@@ -24,6 +24,11 @@
 				"color5": "!bg-[#cabaca]",
 				"bgColor": "[background:radial-gradient(125%_125%_at_50%_-20%,_#fff_40%,_#9983b9_100%)]"
 			},
+			"borderColor":{
+				"border1": "!border-[#9983b9]",
+				"border2": "!border-[#d8b492]",
+				"border3": "!border-[#382f78]"
+			},
 			"ComboSkill": {
 				"skill1": {
 					"color": "",
@@ -57,6 +62,11 @@
 				"color5": "!bg-[#aea999] !text-white",
 				"bgColor": "[background:radial-gradient(125%_125%_at_50%_-20%,_#fff_40%,_#afdae3_100%)]"
 			},
+			"borderColor":{
+				"border1": "!border-[#afdae3]",
+				"border2": "!border-[#536dba]",
+				"border3": "!border-[#EFF3F5]"
+			},
 			"ComboSkill": {
 				"skill1": {
 					"color": "",
@@ -89,6 +99,11 @@
 				"color4": "!bg-[#d6cbcf]",
 				"color5": "!bg-[#fff2f3]",
 				"bgColor": "[background:radial-gradient(125%_125%_at_50%_-20%,_#fff_40%,_#781f31_100%)]"
+			},
+			"borderColor":{
+				"border1": "!border-[#781f31]",
+				"border2": "!border-[#593d3a]",
+				"border3": "!border-[#412a34]"
 			},
 			"ComboSkill": {
 				"skill1": {
