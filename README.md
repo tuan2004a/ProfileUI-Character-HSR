@@ -1,4 +1,4 @@
-# 🎮 ProfileUI-Character-HSR
+# ProfileUI-Character-GI
 
 A web application for viewing Genshin Impact character banners and detailed character information. This project provides an intuitive user interface to explore game characters, including banner images, keywords, skill statistics, and other information.
 
